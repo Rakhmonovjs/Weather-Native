@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { Alert, StyleSheet } from 'react-native';
 import Weather from './components/weather';
 import Loader from './components/loader';
-const API_KEY = '13988e2bb2d40da3e2804ef1ceec4225';
+const API_KEY = 'you code....';
 
 export default function App() {
 	const [isLoading, setIsLoading] = useState(true);
